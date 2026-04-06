@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Slide(props) {
+export default function Slide() {
 
     
     return (

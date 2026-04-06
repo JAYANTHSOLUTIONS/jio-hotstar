@@ -1,5 +1,5 @@
 import React from 'react';
-import spidy from '../assets/spider.mp4'
+
 import avng from "../assets/Avengers.mp4"
 import f1 from '../assets/f1.mp4'
 
