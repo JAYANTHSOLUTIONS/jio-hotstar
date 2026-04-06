@@ -1,0 +1,74 @@
+autoPlay
+                        muted
+                        loop
+                        playsInline
+                        width= "100%"
+
+
+
+
+
+
+                                                autoPlay
+                        muted
+                        loop
+                        playsInline
+                        className="w-100 d-block"
+                        style={{ objectFit: 'cover', minHeight: '400px' }}
+
+
+
+
+
+
+
+
+
+
+
+                        <div className="card position-relative bg-dark text-white border-0 overflow-hidden">
+                {/* Video Section */}
+                <div className="video-container">
+                    <video
+
+                    >
+                        <source src={vid} type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+
+
+
+
+
+
+                {/* Overlay Section: Starts at 50% height */}
+                <div className="card-img-overlay  d-flex flex-column justify-content-center   ">
+                    {/* Using a Gradient background here helps text readability */}
+                    <div className="bg-gradient-to-t from-dark pt-5">
+                        <h2 className="card-title fw-bold">Card title</h2>
+                        <p className="card-text mb-1">New Season</p>
+                        <p className="card-text small text-secondary">2026 • U/A 16+ • Tamil</p>
+                        <p className="card-text opacity-75">
+                            Double trouble laughter entertainment! Comalis pair up with...
+                        </p>
+                        <button className="btn btn-primary mt-2 px-4 py-2 fw-bold" type="button">
+                            Subscribe to watch
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div className="carousel-item">
+                <img src="..." alt="..."></img>
+                    <div className="carousel-caption d-none d-md-block">
+                        <h5>...</h5>
+                        <p>...</p>
+                    </div>
+            </div>
